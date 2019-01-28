@@ -1,0 +1,12 @@
+server:
+  port: 5004
+
+eureka:
+
+  instance:
+    hostname: localhost
+  
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    
