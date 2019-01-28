@@ -41,8 +41,9 @@ public class RegisterController {
 	
 	public RegisterController()
 	{
-		User uu=new User("savi","savi","savi@gmail.com");
-		users.put("savi", uu);
+		User uu=new User("chandu","chandu","chandrasekhar.parlapalli@gmail.com");
+		
+		users.put("chandu", uu);
 	}
 	
 	//use the below displayCountries method and defaultCountries
