@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: chand
+Build-Jdk: 11.0.1
+Implementation-Title: Register
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.wipro
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/Register/
+Created-By: Maven Integration for Eclipse
+
