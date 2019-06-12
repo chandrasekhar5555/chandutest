@@ -1,6 +1,5 @@
 package com.wipro.Register;
 
-import org.codehaus.jettison.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
@@ -176,6 +175,7 @@ public class RegisterController {
 					{
 						//use below 2 lines for regular eureka;
 				List<ServiceInstance> instances=  discoveryClient.getInstances(tradeService);
+			    System.out.println("instances=====>"+instances.get(1));
 				URI uri=instances.get(0).getUri();
 				
 				//use below 3 lines code for Ribbon
