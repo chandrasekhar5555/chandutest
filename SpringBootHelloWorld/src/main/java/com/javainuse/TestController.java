@@ -17,7 +17,7 @@ public class TestController {
 	@RequestMapping(value="/value",method=RequestMethod.GET)
 	public String getValue()
 	{
-		
+		Systm.out.println("=========Hello World=============");
 		return "welcome";
 	}
 
