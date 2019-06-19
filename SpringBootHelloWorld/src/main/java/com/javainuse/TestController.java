@@ -18,6 +18,8 @@ public class TestController {
 	public String getValue()
 	{ 
 	      System.out.println("=========111111111111111111111===Welcom====");
+		   System.out.println("=========111111111111111111111===Welcom====");
+		    System.out.println("=========111111111111111111111===Welcom====");
 		
 		return "welcome";
 	}
