@@ -20,5 +20,11 @@ public class TestController {
 		Systm.out.println("=========Hello World=============");
 		return "welcome";
 	}
+	@RequestMapping(value="/message",method=RequestMethod.GET)
+	public String getMessage()
+	{
+		Systm.out.println("=========Hello World=============");
+		return "welcome";
+	}
 
 }
